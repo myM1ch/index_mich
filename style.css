@@ -1,0 +1,73 @@
+*{
+margin: 0;
+padding: 0;
+} 
+
+.nav{
+   height: 5%;
+   background: #7FB3D;
+   border-radius: 3em;
+   margin: 3em;
+}
+
+.slide{
+width: 100vw;
+height: 100vw;
+}
+
+.wrapper{
+display: flex;
+flex-direction: row;
+width: 400vw;
+transform: rotate(90deg)translateY(-100vh);
+transform-origin: top left;
+}
+
+.one{
+background: ;
+}
+
+.dos{
+background: #A3E4D7;
+}
+
+.tres{
+background: #1F5072;
+}
+
+.cuatro{
+background: ;
+}
+
+.cuter-wrapper{
+width: 100vh;	
+height: 100vw;
+transform: rotate(-90deg) translateX(-100vh);
+transform-origin: top left;
+overflow-y: scroll;
+overflow-x:hidden;
+position: absolute;
+}
+
+p.text1{
+overflow:hidden;
+text-shadow: 3px 3px black;
+padding: 10px 7px;
+position: absolute;
+font-size: 30px;
+font-family: cooper;
+color: white;
+margin: 5em 30em;
+}
+
+p.text2{
+overflow:hidden;
+text-shadow: 3px 3px black;
+padding: 10px 7px;
+position: absolute;
+font-size: 30px;
+font-family: cooper;
+color: white;
+margin: 20em 18em;
+	
+}
