@@ -1,0 +1,55 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+body{
+ width: 100%;
+ height: 90vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.contenedor{
+ position: relative;
+ width: 820px;
+ height: 680px;
+ cursor: pointer;
+ box-shadow: 3px 10px 25px rgba(0,0,0,0.5);
+  margin: 10em 8em;
+}
+
+.contenedor div{
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ float: right;
+}
+
+.caja1{
+  background: url(ig2.jpg);
+  background-size: 100% 100%;
+}
+
+.caja2{
+  background: url(hotel2.jpg);
+  background-size: 100% 100%;
+  transition:0.6s;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+}
+
+.caja2:hover{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.caja1:hover{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.caja1:hover ~ .caja2{
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
