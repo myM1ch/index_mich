@@ -36,7 +36,7 @@ body{
 }
 
 .caja2{
-  background: url(https://github.com/myM1ch/index_mich/blob/gh-pages/hotel2.jpg);
+  background: url(hotel2.jpg);
   background-size: 100% 100%;
   transition:0.6s;
   clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
